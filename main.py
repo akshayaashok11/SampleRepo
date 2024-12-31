@@ -29,7 +29,7 @@ class TaskManager:
 
     def write_tasks(self, filename):
         """
-        This method writes the list of tasks to a file
+        This method writes the list of tasks to a file - It dumps a list of tasks to a file
         """
         with open(filename, 'w') as file:
             for task in self.tasks:
